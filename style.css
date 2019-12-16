@@ -1,0 +1,409 @@
+.middle{
+    position:absolute;
+    width: 80%;
+    left: 10%;
+        right: 10%;
+}
+@font-face{
+    font-family:Bebas;
+    src: url("font/BebasNeue-Regular.woff");
+}
+@font-face{
+    font-family:Nunito;
+    src: url("font/NunitoSans-Regular.ttf")
+}
+
+.bebas{
+    font-family:Bebas;
+    font-size: 60;
+    
+}
+.title{
+    font-size: 80px;
+    text-align: center;
+    font-family: Bebas;
+}
+
+body{  
+   background-image: url("img/backgroundbaru.jpg");
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+    background-size:cover;
+}
+
+.nav{
+    width: 100%;
+  float:left;
+    background-color: white;
+    opacity: 0.8;
+ }
+a{
+  text-decoration: none;
+    color: black;
+    float: right;
+    font-size: 30px;
+    font-family: Bebas;
+    text-align: center; 
+    margin: 7px;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.active{
+    background-color: white;
+}
+.hover{
+    color: black;
+}
+
+#pen{
+    opacity: 1;
+}
+a:hover:not(.active) {
+  background-color:black;
+    color: white;
+}
+.banner{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.tengahgbr{
+    position: absolute;
+    top: 50%;
+        left:50%;
+    transform: translate(-50%, -50%);
+    height: 200px;
+        
+}
+.title{
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: black;
+    
+}
+
+div.transbox{
+    text-align: center;
+    color: white;
+    background-color: black;
+    opacity: 0.8;
+    height: 200px;
+    
+}
+
+.text{
+    color: white;
+    font-family: Bebas; 
+    opacity: 100% !important;
+    
+    
+} 
+.size100{
+    font-size: 100px ;
+}
+.size30{
+    font-size: 30px ;
+}
+.black{
+    color: black;
+}
+.white{
+    color:white;
+}
+.alignmid{
+    text-align: center;
+    top: 50%;
+        left:50%
+}
+
+.size70{
+    font-size: 70px;
+}
+
+.bagi3{
+    display: grid;
+    grid-auto-columns: 30% 70%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column40{
+  float:left;
+  width: 40%;
+}
+.column60{
+    float: left;
+    width: 60%;
+}
+
+.column50{
+    float: left;
+    width: 50%;
+}
+
+.column30{
+    float: left;
+    width: 30%;
+}
+.column70{
+        width: 70%;
+float: left;
+}
+
+.colom1{}
+
+h3{
+    font-family: Bebas;
+    text-align: center;
+    font-size: 40px;
+}
+.paragraph{
+    font-family: Nunito;
+    font-size: 20px;
+    text-align: left;
+}
+.paragraphmid{
+    font-family: Nunito;
+    font-size: 20px;
+    text-align: center;
+}
+#abe{
+    font-family: Nunito;
+    font-size: 20px;
+    text-align: left;
+    color: cornflowerblue;
+    
+}
+#myVideo {
+  position: relative;
+  right: 0;
+  bottom: 0;
+    height: 500x;
+}
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000f;
+  color: #fff;
+  cursor: pointer;
+}
+
+.middle2{
+    position:relative;
+    width: 80%;
+    left: 10%;
+        right: 10%;
+}
+
+#footer{
+    background-color: black;
+    color: white;
+    opacity: 1;
+    text-align: center;
+    
+    
+}
+.footer{
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    opacity: 0.7;
+    
+}
+.middle3{
+    position:relative;
+    width: 80%;
+    left: 10%;
+        right: 10%;
+}
+
+.column100{
+    float: left;
+    width: 60%;
+}
+
+    .card {
+
+        width: 130px;
+
+        height: 195px;
+
+        background: url("images/card-back.jpg") no-repeat;
+
+        display: inline-block;
+
+    }
+
+    .card:hover {
+
+        background: url("images/card-front.jpg") no-repeat;
+
+    }
+
+.container {
+  margin: 100px auto;
+  width: 300px;
+  text-align: center;
+}
+
+/* ini progress design 1*/
+
+.progress {
+  padding: 6px;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+}
+
+.progress-bar {	
+  height: 18px;
+	background-color: #ee303c;  
+  border-radius: 4px; 
+  transition: 0.4s linear;  
+  transition-property: width, background-color;    
+}
+
+
+.progress-striped .progress-bar { 	
+  background-color: #5F5B5B; 
+  width: 55%; 
+  background-image: linear-gradient(
+        45deg, rgb(144,141,137) 25%, 
+        transparent 25%, transparent 50%, 
+        rgb(144,141,137) 50%, rgb(144,141,137) 75%,
+        transparent 50%, transparent); 
+  animation: progressAnimationStrike 6s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes progressAnimationStrike {
+     from { width: 0 }
+     to   { width: 55% }
+}
+
+/* ini progress design 1*/
+
+/* ini progress design 2*/
+
+.progress1 {
+  padding: 6px;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+}
+
+.progress-bar1 {	
+  height: 18px;
+	background-color: #ee303c;  
+  border-radius: 4px; 
+  transition: 0.4s linear;  
+  transition-property: width, background-color;    
+}
+
+.progress-striped1 .progress-bar1 { 	
+  background-color: #5F5B5B; 
+  width: 80%; 
+  background-image: linear-gradient(
+        45deg, rgb(144,141,137) 25%, 
+        transparent 25%, transparent 50%, 
+        rgb(144,141,137) 50%, rgb(144,141,137) 75%,
+        transparent 75%, transparent); 
+  animation: progressAnimationStrike1 6s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes progressAnimationStrike1 {
+     from { width: 0 }
+     to   { width: 80% }
+}
+
+/* ini progress design 2*/
+
+/* ini progress design 3*/
+
+.progress2 {
+  padding: 6px;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+}
+
+.progress-bar2 {	
+  height: 18px;
+	background-color: #ee303c;  
+  border-radius: 4px; 
+  transition: 0.4s linear;  
+  transition-property: width, background-color;    
+}
+
+.progress-striped2 .progress-bar2 { 	
+  background-color: #5F5B5B; 
+  width: 40%; 
+  background-image: linear-gradient(
+        45deg, rgb(144,141,137) 25%, 
+        transparent 25%, transparent 50%, 
+        rgb(144,141,137) 50%, rgb(144,141,137) 75%,
+        transparent 75%, transparent); 
+  animation: progressAnimationStrike2 6s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes progressAnimationStrike2 {
+     from { width: 0 }
+     to   { width: 40% }
+}
+
+/* ini progress design 3*/
+
+/* ini progress design 4*/
+
+.progress3 {
+  padding: 6px;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+}
+
+.progress-bar3 {	
+  height: 18px;
+	background-color: #ee303c;  
+  border-radius: 4px; 
+  transition: 0.4s linear;  
+  transition-property: width, background-color;    
+}
+
+.progress-striped3 .progress-bar3 { 	
+  background-color: #5F5B5B; 
+  width: 68%; 
+  background-image: linear-gradient(
+        45deg, rgb(144,141,137) 25%, 
+        transparent 25%, transparent 50%, 
+        rgb(144,141,137) 50%, rgb(144,141,137) 75%,
+        transparent 75%, transparent); 
+  animation: progressAnimationStrike3 6s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes progressAnimationStrike3 {
+     from { width: 0 }
+     to   { width: 68% }
+}
+
+/* ini progress design 4*/
