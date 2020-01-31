@@ -147,12 +147,11 @@ function heal(){
     let healAmt=Math.round(player.healthPoint*0.4)
     player.healthPoint=player.healthPoint+healAmt
     logNewMessage1.innerHTML=`${player.name} cowardly use heal, +${healAmt} HP *sad* `
-    if (player.healthPoint<=300 && slime.healthPoint>player.healthPoint){
+    if (player.healthPoint<=300 && slime.healthPoint>=player.healthPoint){
     alert(`Did you read the instructions? at this point it's useless to heal, heal only recovuer 40% OF YOUR CURRENT HP!`)
     alert(`the heal amount is ${healAmt}`)
     }
-    if (player.healthPoint>1000){
-       
+    if (player.healthPoint>=1001){
         alert(`taking advantage of this system aren't we?, stacking up health till the system explode?`)
         alert(`i dont think your family will be proud of your action -.- `); 
         alert(`unlike YOU. im a fair system so here ${healAmt} HP`)
