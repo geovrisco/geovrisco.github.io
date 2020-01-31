@@ -115,14 +115,14 @@ btnPlayerAtk.onclick = () =>{
         alert('friendly reminder:')
         alert('YOU WEAK')
         alert('この弱い男を翻訳しないでください')
-        window.location='index.html'
+        window.location='gameindex.html'
     } 
     if (player.healthPoint>0 && slime.healthPoint<=0){
         bgmMusix.pause()
         winaudio()
         alert(`you win against a slime! what so special about it?`+'\n'+'click ok to go to title screen')
         alert('enjoy this legendary BGM')
-        window.location='index.html'
+        window.location='gameindex.html'
     }
 
     btnHeal.disabled=true
@@ -141,7 +141,7 @@ function kick(){
     logNewMessage1.innerHTML='Dont you dare do that again!'
     logNewMessage1.innerHTML='Dont you dare do that again!'
     
-    window.location='index.html'
+    window.location='gameindex.html'
 }
 function heal(){
     let healAmt=Math.round(player.healthPoint*0.4)
@@ -176,11 +176,11 @@ btnHeal.onclick = () =>{
     playerHp.innerHTML=player.healthPoint
     if (player.healthPoint<=0 && slime.healthPoint>player.healthPoint){
         alert('You are slained by slime? HOW CAN YOU FACE THE WORLD?'+'\n'+'You are an embarassment')
-        window.location='index.html'
+        window.location='gameindex.html'
     } 
     if (player.healthPoint>0 && slime.healthPoint<=0){
         alert(`you win against a slime! what special about it?`)
-        window.location='index.html'
+        window.location='gameindex.html'
     }
     
     btnHeal.disabled=true
